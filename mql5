@@ -1,0 +1,53 @@
+
+// Program: Gold Bloom
+// Developer: Forex Robot Easy Team
+// Developer's site: forexroboteasy.com
+
+// Description: This code is for the Gold Bloom Forex software, specifically designed for trading the XAUUSD forex pair.
+
+#property strict
+
+// Entry logic based on previous day's candle pattern
+void EntryLogic()
+{
+    // Implement sophisticated entry logic here
+
+    // Place pending order in one direction
+    // ...
+
+    // Utilize Forex market analysis and predetermined algorithms to determine entry logic
+    // ...
+
+    // Automate risk management by placing stop loss based on previous candle's price
+    // ...
+
+    // Determine take profit using trailing stop to balance risk and reward
+    // ...
+}
+
+// Main function
+void OnTick()
+{
+    // Call entry logic function
+    EntryLogic();
+}
+
+// Necessary trading functions required for the algorithm
+// ...
+
+// Program execution starts here
+void OnInit()
+{
+    // Initialize necessary variables and parameters
+    // ...
+
+    // Start trading
+    Comment('Gold Bloom Forex software is now running.');
+}
+
+// Program execution ends here
+void OnDeinit(const int reason)
+{
+    // Perform necessary cleanup and exit
+    Comment('Gold Bloom Forex software has stopped.');
+}
